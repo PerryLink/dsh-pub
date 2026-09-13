@@ -403,8 +403,9 @@ try {
   await assertPage('/zh/plugins/web-app/', '激活层，不代表该 Git 子目录可以独立安装');
   await assertPageOmits('/zh/plugins/web-app/', 'npx dshpub add');
   await assertPageOmits('/zh/plugins/web-app/', 'CLI 安装量');
-  await assertPage('/zh/plugins/web-app/', 'data-ad-slot="1234567890"');
-  await assertPage('/en/plugins/', 'data-ad-slot="0987654321"');
+  await assertPage('/zh/', 'data-ad-slot="1234567890"');
+  await assertPageOmits('/zh/plugins/web-app/', 'data-ad-slot=');
+  await assertPageOmits('/en/plugins/', 'data-ad-slot=');
   await assertPageOmits('/en/submit/', 'data-ad-slot=');
   await assertPageOmits('/zh/submit/', 'class="adsbygoogle"');
   await assertPage('/zh/plugins/dsh-genui/', 'omdsh-dev / dsh-genui');
@@ -422,6 +423,11 @@ try {
   );
   await assertPageOmits('/zh/plugins/dsh-automation/', '--path');
   await assertPage('/zh/plugins/dsh-automation/', 'rel="ugc"');
+  await assertPageOmits('/zh/plugins/dsh-automation/', '<meta name="robots" content="noindex">');
+  await assertPage('/zh/plugins/open-sea-skin/', '<meta name="robots" content="noindex">');
+  await assertPage('/zh/plugins/open-sea-skin/', '目录摘要');
+  await assertPageOmits('/zh/plugins/open-sea-skin/', 'readme-content');
+  await assertPageOmits('/zh/plugins/web-app/', '<meta name="robots" content="noindex">');
   await assertPage('/en/submit/', 'Submit a DSH plugin');
   await assertPage('/zh/submit/', '提交一个 DSH 插件');
   await assertPage('/en/submit/', 'This is taking longer than expected. Please try again.');
