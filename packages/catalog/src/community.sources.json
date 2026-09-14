@@ -98781,6 +98781,27 @@
       "readmePath": "README.md",
       "licensePath": "LICENSE",
       "automation": { "analyzedAt": "2026-09-14", "method": "automated-static-contract" }
+    },
+    {
+      "repository": "https://github.com/exoticknight/dsh-just-chat",
+      "commit": "e47046457758750664799a5937d2e401889d3174",
+      "directory": "",
+      "packageName": "dsh-just-chat",
+      "manifestPath": "package.json",
+      "bundlePatchPath": "cordis.patch.yml",
+      "runtimeEntryPath": "index.js",
+      "readmePath": "README.md",
+      "licensePath": "LICENSE",
+      "submission": {
+        "file": "https://github.com/dsh-pub/dsh-pub/blob/main/submissions/exoticknight--dsh-just-chat.json",
+        "pullRequest": "https://github.com/dsh-pub/dsh-pub/pull/93",
+        "submittedAt": "2026-09-14",
+        "category": "client-ui",
+        "description": {
+          "en": "One-click native conversations with independent workspaces for DeepSeek Harness",
+          "zh": ""
+        }
+      }
     }
   ]
 }

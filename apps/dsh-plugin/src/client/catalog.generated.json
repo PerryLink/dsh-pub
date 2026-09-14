@@ -7,9 +7,9 @@
       "generatedAt": "2026-08-13T19:38:46+08:00"
     },
     "community": {
-      "repository": "https://github.com/topics/dsh-plugin",
-      "generatedAt": "2026-09-13T19:12:24.283Z",
-      "policy": "automated-pinned-source-contracts"
+      "repository": "https://github.com/dsh-pub/dsh-pub",
+      "generatedAt": "2026-09-14T11:55:13.000Z",
+      "policy": "pinned-source-contracts"
     }
   },
   "topics": [
@@ -165149,6 +165149,26 @@
       "repository": "https://github.com/zxr2115-1/dsh-anime-theme",
       "directory": "",
       "commit": "a39d25fdf49c7bee35e788629b9ce3c5497c4ab0"
+    },
+    {
+      "slug": "dsh-just-chat",
+      "name": "dsh-just-chat",
+      "description": {
+        "en": "One-click native conversations with independent workspaces for DeepSeek Harness",
+        "zh": "One-click native conversations with independent workspaces for DeepSeek Harness"
+      },
+      "topic": "ui-client",
+      "category": "client-ui",
+      "type": "bundle",
+      "provenance": "community",
+      "surfaces": [
+        "profile"
+      ],
+      "installable": true,
+      "capabilityCount": 0,
+      "repository": "https://github.com/exoticknight/dsh-just-chat",
+      "directory": "",
+      "commit": "e47046457758750664799a5937d2e401889d3174"
     }
   ]
 }
