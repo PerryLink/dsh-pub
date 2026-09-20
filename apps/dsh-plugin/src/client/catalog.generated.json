@@ -8,7 +8,7 @@
     },
     "community": {
       "repository": "https://github.com/dsh-pub/dsh-pub",
-      "generatedAt": "2026-09-20T05:20:29.000Z",
+      "generatedAt": "2026-09-20T07:56:17.000Z",
       "policy": "pinned-source-contracts"
     }
   },
@@ -165847,6 +165847,26 @@
       "repository": "https://github.com/jiangnuonnuo/interview-dsh-plugin",
       "directory": "",
       "commit": "f54ce0dedcdd33ffc4da019e063ffa45280cae07"
+    },
+    {
+      "slug": "xiaolv-skills",
+      "name": "xiaolv-skills",
+      "description": {
+        "en": "小律同学 Agent Skills catalog + DeepSeek Harness skill provider",
+        "zh": "小律同学 Agent Skills catalog + DeepSeek Harness skill provider"
+      },
+      "topic": "other",
+      "category": "bundles",
+      "type": "bundle",
+      "provenance": "community",
+      "surfaces": [
+        "profile"
+      ],
+      "installable": true,
+      "capabilityCount": 0,
+      "repository": "https://github.com/xltxai/skills",
+      "directory": "",
+      "commit": "71ab7bfd9a4f96ddad61d5493a6d565282654ee0"
     }
   ]
 }

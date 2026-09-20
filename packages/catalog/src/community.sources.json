@@ -99289,6 +99289,27 @@
           "zh": ""
         }
       }
+    },
+    {
+      "repository": "https://github.com/xltxai/skills",
+      "commit": "71ab7bfd9a4f96ddad61d5493a6d565282654ee0",
+      "directory": "",
+      "packageName": "xiaolv-skills",
+      "manifestPath": "package.json",
+      "bundlePatchPath": "cordis.patch.yml",
+      "runtimeEntryPath": "lib/index.js",
+      "readmePath": "README.md",
+      "licensePath": "LICENSE",
+      "submission": {
+        "file": "https://github.com/dsh-pub/dsh-pub/blob/main/submissions/xltxai--skills.json",
+        "pullRequest": "https://github.com/dsh-pub/dsh-pub/pull/97",
+        "submittedAt": "2026-09-20",
+        "category": "bundles",
+        "description": {
+          "en": "小律同学 Agent Skills catalog + DeepSeek Harness skill provider",
+          "zh": ""
+        }
+      }
     }
   ]
 }
