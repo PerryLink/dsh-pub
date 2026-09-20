@@ -7,9 +7,9 @@
       "generatedAt": "2026-08-13T19:38:46+08:00"
     },
     "community": {
-      "repository": "https://github.com/topics/dsh-plugin",
-      "generatedAt": "2026-09-19T19:10:29.030Z",
-      "policy": "automated-pinned-source-contracts"
+      "repository": "https://github.com/dsh-pub/dsh-pub",
+      "generatedAt": "2026-09-20T05:20:29.000Z",
+      "policy": "pinned-source-contracts"
     }
   },
   "topics": [
@@ -165827,6 +165827,26 @@
       "repository": "https://github.com/zzzmmmnn/dsh-openkapsel",
       "directory": "",
       "commit": "0baee6123c0a675844201e706a71e0ba6e67e16f"
+    },
+    {
+      "slug": "interview-dsh",
+      "name": "interview-dsh",
+      "description": {
+        "en": "一个可以直接嵌入到dsh 的八股面试官问答插件，做成面试的角度很好的去帮助回忆八股知识",
+        "zh": "一个可以直接嵌入到dsh 的八股面试官问答插件，做成面试的角度很好的去帮助回忆八股知识"
+      },
+      "topic": "ui-client",
+      "category": "client-ui",
+      "type": "bundle",
+      "provenance": "community",
+      "surfaces": [
+        "profile"
+      ],
+      "installable": true,
+      "capabilityCount": 0,
+      "repository": "https://github.com/jiangnuonnuo/interview-dsh-plugin",
+      "directory": "",
+      "commit": "f54ce0dedcdd33ffc4da019e063ffa45280cae07"
     }
   ]
 }

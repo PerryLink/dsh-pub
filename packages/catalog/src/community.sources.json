@@ -99268,6 +99268,27 @@
       "readmePath": "README.md",
       "licensePath": "LICENSE",
       "automation": { "analyzedAt": "2026-09-20", "method": "automated-static-contract" }
+    },
+    {
+      "repository": "https://github.com/jiangnuonnuo/interview-dsh-plugin",
+      "commit": "f54ce0dedcdd33ffc4da019e063ffa45280cae07",
+      "directory": "",
+      "packageName": "interview-dsh",
+      "manifestPath": "package.json",
+      "bundlePatchPath": "cordis.patch.yml",
+      "runtimeEntryPath": "lib/index.js",
+      "readmePath": "README.md",
+      "licensePath": "LICENSE",
+      "submission": {
+        "file": "https://github.com/dsh-pub/dsh-pub/blob/main/submissions/jiangnuonnuo--interview-dsh-plugin.json",
+        "pullRequest": "https://github.com/dsh-pub/dsh-pub/pull/96",
+        "submittedAt": "2026-09-20",
+        "category": "client-ui",
+        "description": {
+          "en": "一个可以直接嵌入到dsh 的八股面试官问答插件，做成面试的角度很好的去帮助回忆八股知识",
+          "zh": ""
+        }
+      }
     }
   ]
 }
